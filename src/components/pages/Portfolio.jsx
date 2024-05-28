@@ -1,73 +1,47 @@
-// export default function Home() {
-// 	return (
-// 		<div>
-// 			<h1>Applications</h1>
-
-// <section class="examples-main">
-// 	<section class="card">
-// 		<a
-// 			href="https://ktetsuyama.github.io/semantic-refactor/"
-// 			target="_blank"
-// 			class="card-link"
-// 		>
-// 			<header>Semantic Refactor</header>
-// 			<img
-// 				src="/SR screenshot.jpg"
-// 				alt="screenshot of a webpage with blue elements"
-// 			/>
-// 		</a>
-// 	</section>
-// 			</section>
-// 			<section class="examples">
-// 				<section class="card">
-// 					<a
-// 						href="https://ktetsuyama.github.io/Janken/"
-// 						target="_blank"
-// 						class="card-link"
-// 					>
-// 						<header>Janken</header>
-// 						<img
-// 							src="/janken_screenshot.png"
-// 							alt="a picture of a javascript prompt box asking for input to play the game rock paper scissors"
-// 						/>
-// 					</a>
-// 				</section>
-// 				<section class="card">
-// 					<header>Coming Soon!</header>
-// 					<img
-// 						src="./assets/images/placehold2.jpg"
-// 						alt="isometric design with a rainbow of colors on a black background"
-// 					/>
-// 				</section>
-// 				<section class="card">
-// 					<header>Coming Soon!</header>
-// 					<img
-// 						src="./assets/images/placehold3.jpg"
-// 						alt="futuristic scene of a flying car flying between buildings"
-// 					/>
-// 				</section>
-// 			</section>
-// 		</div>
-// 	);
-// }
+import React from "react";
 import Project from "../Project";
 const projects = [
 	{
-		projectName: "Project 1",
-		projectURL: "https://www.google.com",
-		projectDescription: "This is a project description",
+		projectName: "Semantic Refactor",
+		projectURL: "https://ktetsuyama.github.io/semantic-refactor/",
+		projectDescription:
+			"This application is a refactor of a webpage to use semantic HTML elements",
+		projectImage: "/semanticrefactor.png",
+		projectAlt: "screenshot of a webpage with blue elements",
 	},
 	{
-		projectName: "Project 2",
-		projectURL: "https://www.google.com/1",
-		projectDescription: "This is a project description, too",
+		projectName: "Janken",
+		projectURL: "https://ktetsuyama.github.io/Janken/",
+		projectDescription: "This application is a rock paper scissors game",
+		projectImage: "/janken_screenshot.png",
+		projectAlt:
+			"a picture of a javascript prompt box asking for input to play the game rock paper scissors",
+	},
+	{
+		projectName: "Holocron",
+		projectURL: "https://ktetsuyama.github.io/holocron/",
+		projectDescription: "This application is a Star Wars themed search engine",
+		projectImage: "/holocron.png",
+		projectAlt: "a picture of a search engine with a Star Wars theme",
+	},
+	{
+		projectName: "Vibe Check",
+		projectURL: "https://ktetsuyama.github.io/vibe-check/",
+		projectDescription:
+			"This application is an app that allows users to create playlists, rate their own playlists, and rate the playlists of other users",
+		projectImage: "/vibecheck.png",
+		projectAlt: "a picture of a playlist of songs",
 	},
 ];
 
 export default function Portfolio() {
-	<div>
-		{projects.map((project) => (
-			<Project project={project} />
-		))}
-	</div>;
+	return (
+		<div className="row">
+			{projects.map((project, index) => (
+				<div key={index} className="col-md-12 mb-4">
+					<Project project={project} />
+				</div>
+			))}
+		</div>
+	);
 }
