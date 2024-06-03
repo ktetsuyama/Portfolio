@@ -9,6 +9,7 @@ This is my online portfolio page. I began it during a bootcamp that i particpate
 - [Introduction](#introduction)
 - [Problem](#problem)
 - [Solution](#solution)
+- [Contributors](#contributors)
 - [Contact](#contact)
 - [License](#license)
 
@@ -50,6 +51,10 @@ Here is link to the deployed application on Netlify:
 and here is a screenshot:
 
 ![screenshot](./public/screenshot.png)
+
+## Contributors
+
+I used chatgpt and Github copilot to troubleshoot bugs.
 
 ## Contact
 
