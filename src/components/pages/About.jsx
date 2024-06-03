@@ -40,11 +40,11 @@ export default function About() {
 
 	return (
 		<div style={isMobile ? styles.containerMobile : styles.container}>
-			<h1>Keegan Royal-Eisenberg</h1>
+			<h2>A little about me</h2>
 			<div style={isMobile ? styles.contentMobile : styles.content}>
 				<img
 					src="/Ksmall.png"
-					alt="Keegan Royal-Eisenberg"
+					alt="smiling white male in a blue suit jacket and grey tie"
 					style={styles.image}
 				/>
 				<p style={styles.paragraph}>

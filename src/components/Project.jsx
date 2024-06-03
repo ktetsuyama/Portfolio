@@ -13,8 +13,7 @@ export const Project = ({ project }) => {
 				<img
 					src={project.projectImage}
 					alt={project.projectAlt}
-					className="w-100"
-					style={{ height: "auto" }}
+					style={{ width: "50%", height: "auto" }}
 				/>
 			</a>
 			<p className="text-center mt-3">{project.projectDescription}</p>

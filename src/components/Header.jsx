@@ -18,7 +18,7 @@ const Header = () => {
 	return (
 		<header style={headerStyle}>
 			<div className="container">
-				<p className="m-0">K Tetsuyama</p>
+				<h1>Keegan Royal-Eisenberg</h1>
 			</div>
 		</header>
 	);
