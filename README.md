@@ -44,11 +44,12 @@ When the user views the footer, they are presented with text or icon links to th
 
 ## Solution
 
-Here is link to the deployed application on Render:
-[Link to deployed app]()
+Here is link to the deployed application on Netlify:
+[Link to deployed app](https://euphonious-flan-3ae808.netlify.app/)
 
 and here is a screenshot:
-![screenshot](./images/screenshot.png)
+
+![screenshot](./public/screenshot.png)
 
 ## Contact
 
