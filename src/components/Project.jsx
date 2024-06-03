@@ -17,6 +17,12 @@ export const Project = ({ project }) => {
 				/>
 			</a>
 			<p className="text-center mt-3">{project.projectDescription}</p>
+			<a href={project.projectRepo} className="text-center mt-3">
+				Link to the {project.projectName} GitHub repo
+			</a>
+			<p className="text-center mt-3">
+				(or click the screenshot to visit the deployed app!)
+			</p>
 		</section>
 	);
 };
