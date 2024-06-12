@@ -6,12 +6,12 @@ This is my online portfolio page. I began it during a bootcamp that i particpate
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Problem](#problem)
-- [Solution](#solution)
-- [Contributors](#contributors)
-- [Contact](#contact)
-- [License](#license)
+-   [Introduction](#introduction)
+-   [Problem](#problem)
+-   [Solution](#solution)
+-   [Contributors](#contributors)
+-   [Contact](#contact)
+-   [License](#license)
 
 ## Introduction
 
@@ -46,7 +46,7 @@ When the user views the footer, they are presented with text or icon links to th
 ## Solution
 
 Here is link to the deployed application on Netlify:
-[Link to deployed app](https://euphonious-flan-3ae808.netlify.app/)
+[Link to deployed app](https://ktetsuyama.netlify.app/)
 
 and here is a screenshot:
 
