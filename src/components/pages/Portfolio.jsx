@@ -19,7 +19,7 @@ const projects = [
 			"This application is an app that allows users to create playlists, rate their own playlists, and rate the playlists of other users.",
 		projectImage: "/vibecheck.png",
 		projectAlt: "a picture of a playlist of songs",
-		projectConcepts: ["Handlebars", "SQL", "Express", "& Node.js."],
+		projectConcepts: ["Handlebars", "NoSQL", "Express", "& Node.js."],
 	},
 	{
 		projectName: "Holocron",
