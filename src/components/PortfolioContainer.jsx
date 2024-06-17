@@ -22,6 +22,9 @@ export default function PortfolioContainer() {
 		if (currentPage === "Resume") {
 			return <Resume />;
 		}
+		if (currentPage === "Contact") {
+			return <Contact />;
+		}
 		if (
 			currentPage !== "Portfolio" &&
 			currentPage !== "About" &&
@@ -30,7 +33,6 @@ export default function PortfolioContainer() {
 		) {
 			return <Error />;
 		}
-		return <Contact />;
 	};
 
 	const handlePageChange = (page) => setCurrentPage(page);
@@ -38,7 +40,10 @@ export default function PortfolioContainer() {
 	return (
 		<div>
 			<Header />
-			<NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+			<NavTabs
+				currentPage={currentPage}
+				handlePageChange={handlePageChange}
+			/>
 			<main className="mx-3">{renderPage()}</main>
 			<Footer />
 		</div>
