@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../public/banner.png";
+import banner from "/src/banner.png";
 
 const Header = () => {
 	const headerStyle = {
