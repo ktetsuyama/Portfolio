@@ -48,11 +48,11 @@ export default function About() {
 					style={styles.image}
 				/>
 				<p style={styles.paragraph}>
-					After dipping my toes into the legal world of Trademark registration
-					and enforcement, I pivoted to a career in Full Stack Web Development.
-					When not creating responsive and interesting code solutions for
-					clients, I am enjoying my life living in Japan and spending time with
-					my family.
+					After dipping my toes into the legal world of Trademark
+					registration and enforcement, I pivoted to a career in Full
+					Stack Web Development. When not creating responsive and
+					interesting code solutions for clients, I am enjoying my
+					life living in Japan and spending time with my family.
 				</p>
 			</div>
 		</div>
