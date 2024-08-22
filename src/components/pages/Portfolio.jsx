@@ -13,7 +13,7 @@ const projects = [
 	},
 	{
 		projectName: "Vibe Check",
-		projectURL: "https://ktetsuyama.github.io/vibe-check/",
+		projectURL: "https://ktetsuyama.github.io/Vibe_Check/",
 		projectRepo: "https://github.com/ktetsuyama/Vibe_Check",
 		projectDescription:
 			"This application is an app that allows users to create playlists, rate their own playlists, and rate the playlists of other users.",
@@ -23,7 +23,7 @@ const projects = [
 	},
 	{
 		projectName: "Holocron",
-		projectURL: "https://ktetsuyama.github.io/holocron/",
+		projectURL: "https://ktetsuyama.github.io/Holocron/",
 		projectRepo: "https://github.com/ktetsuyama/Holocron",
 		projectDescription:
 			"This application is a Star Wars themed search engine",
