@@ -13,7 +13,8 @@ const projects = [
 	},
 	{
 		projectName: "Vibe Check",
-		projectURL: "https://ktetsuyama.github.io/Vibe_Check/",
+		projectURL:
+			"https://vibe-check-student-app-d25fe2fb6a44.herokuapp.com/",
 		projectRepo: "https://github.com/ktetsuyama/Vibe_Check",
 		projectDescription:
 			"This application is an app that allows users to create playlists, rate their own playlists, and rate the playlists of other users.",
